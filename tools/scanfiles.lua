@@ -39,6 +39,3 @@ local function HookFisher()
 end
 
 HookFisher()
---addons/classicbox-scripts/lua/autorun/client/cl_timeclock.lua
---addons/classicbox-scripts/lua/ulx/modules/sh/sh_classicboxcommands.lua
---addons/classicbox-scripts/lua/autorun/client/cl_cbmenu.lua

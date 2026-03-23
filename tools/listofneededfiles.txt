@@ -1,0 +1,11 @@
+addons/classicbox-scripts/lua/autorun/client/cl_timeclock.lua
+addons/classicbox-scripts/lua/ulx/modules/sh/sh_classicboxcommands.lua %gotovo%
+addons/classicbox-scripts/lua/autorun/client/cl_cbmenu.lua
+addons/classicbox-scripts/lua/autorun/client/cl_safezone.lua
+lua/autorun/client/classicboxspawnlists.lua 
+addons/classicbox-scripts/lua/autorun/client/cl_headnames.lua
+addons/classicbox-scripts/lua/autorun/sh_misc.lua %gotovo%
+addons/classicbox-scripts/lua/autorun/client/cl_misc.lua %gotovo%
+addons/classicbox-scripts/lua/includes/modules/undo.lua %gotovo%
+addons/classicbox-scripts/lua/autorun/sh_entsremove.lua
+addons/classicbox-scripts/lua/autorun/client/cl_newscoreboard.lua

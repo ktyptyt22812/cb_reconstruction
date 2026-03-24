@@ -1,3 +1,5 @@
+cbdraw = {}
+
 function cbdraw.ScreenScale(size, resolution)
     return math.max(size * (ScrW() / (resolution or 1280)), 1)
 end

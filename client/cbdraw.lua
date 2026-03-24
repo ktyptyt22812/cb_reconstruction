@@ -41,8 +41,16 @@ end
 function cbdraw.DrawText(text, columns, x, y)
     local parts = string.Explode("\n", text)
     for i, column in ipairs(columns) do
-        local part = select(i, table.unpack(parts))
-        cbdraw.SimpleText(part, column.font, x, y, column.color,
-            column.xalign, column.yalign)
+        local part = parts[i]  
+        if part then
+            cbdraw.SimpleText(
+                part,
+                column.font,
+                x, y + (i - 1) * cbdraw.ScreenScaleH(20),  
+                column.color,
+                column.xalign,
+                column.yalign
+            )
+        end
     end
 end
